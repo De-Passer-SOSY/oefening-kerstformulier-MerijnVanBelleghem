@@ -3,14 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Christmas form</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <header>
+    <img src="assets/img/xmas-tree.gif" alt="GIF of a christmas tree">
     <h1>Make-a-wishlist for Santa!</h1>
 </header>
 <form>
+    <fieldset>
+<h2>Some information about you</h2>
+        <label for="whoAreYou">Who are you?</label>
+        <input type="text" id="whoAreYou">
+
+        <label for="mail">Where shall we mail your pending approval to?</label>
+        <input type="email" id="mail">
+
+        <label for="PhoneHome">Can E.T. phone home?</label>
+        <input type="text" id="PhoneHome">
+
+        <label for="whereFrom">Where are you from?</label>
+        <input type="text" id="whereFrom" placeholder="Earth">
+    </fieldset>
+    <fieldset>
+        <h2>Something to please Santa</h2>
+        <p>Which do you like better</p>
+        <input type="radio" id="elves" name="whichBetter">
+        <label for="elves">Elves</label>
+        <input type="radio" id="reindeer" name="whichBetter">
+        <label for="reindeer">Reindeer</label>
+
+        <p>What do you usually decorate your x-mas tree with?</p>
+        <input type="checkbox" id="balls" name="whichDecoration">
+        <label for="balls">Balls</label>
+        <input type="checkbox" id="lights" name="whichDecoration">
+        <label for="lights">Lights</label>
+        <input type="checkbox" id="snow" name="whichDecoration">
+        <label for="snow">Snow</label>
+        <input type="checkbox" id="littleMen" name="whichDecoration">
+        <label for="littleMen">Little men</label>
+        <input type="checkbox" id="fireworks" name="whichDecoration">
+        <label for="fireworks">Fireworks!</label>
 
 
+
+
+    </fieldset>
 
 
 
