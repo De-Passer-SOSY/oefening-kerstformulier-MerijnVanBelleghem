@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Pacifico&display=swap');
+
+h1 {
+    font-family: 'pacifico', cursive;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+
+}
+
+body {
+    background-image: url('../img/xmas-tree.gif');
+    background-repeat: no-repeat;
+}
