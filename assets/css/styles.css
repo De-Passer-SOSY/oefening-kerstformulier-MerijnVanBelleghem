@@ -1,15 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Pacifico&display=swap');
 
 h1 {
-    font-family: 'pacifico', cursive;
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
 }
 
 h2 {
-    font-family: 'Pacifico', cursive;
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
 
 }
 
+form {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#form1, #form1 > header {
+    background-color: #d3d68c
+}
+
+#form2 {
+    background-color: #542f2c;
+    color: #ffffff;
+}
+
+#headerForm2 {
+    color: #f39809;
+}
+
+#form3, #form3 > header {
+    background-color: #b20000;
+    color: #ffffff;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 body {
-    background-image: url('../img/xmas-tree.gif');
-    background-repeat: no-repeat;
+    background-image: url("../img/bg-stars.gif");
+}
+
+p {
+    font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+label {
+    font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: flex-start;
+}
+
+#form1 > input, #form1 > select {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    background-color: #ffffff;
+    border: 1px solid #868B17;
+    border-radius: 3px;
+}
+
+#form2 > input, #form2 > select {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    background-color: #ffffff;
+    border: 1px solid #F39708;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#submit {
+    font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
