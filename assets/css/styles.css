@@ -9,31 +9,28 @@ h2 {
 
 }
 
-form {
-    text-align: center;
+body {
     width: 50%;
     margin: auto;
 }
 
-#form1, #form1 > header {
+#form1 {
     background-color: #d3d68c
 }
 
 #form2 {
     background-color: #542f2c;
-    color: #ffffff;
+    color: #fff;
 }
 
 #headerForm2 {
     color: #f39809;
 }
 
-#form3, #form3 > header {
+#form3 {
     background-color: #b20000;
     color: #ffffff;
 }
-
-
 
 header {
     display: flex;
@@ -67,15 +64,11 @@ label {
 }
 
 #form2 > input, #form2 > select {
-    width: 100%;
     margin-bottom: 5%;
     margin-top: 2%;
     background-color: #ffffff;
     border: 1px solid #F39708;
     border-radius: 3px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
 }
 
 #submit {
