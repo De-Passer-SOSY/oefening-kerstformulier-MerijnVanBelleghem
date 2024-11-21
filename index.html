@@ -11,7 +11,7 @@
     <h1>Make-a-wishlist for Santa!</h1>
 </header>
 <form>
-    <fieldset>
+    <fieldset id="form1">
 <h2>Some information about you</h2>
         <label for="whoAreYou">Who are you?</label>
         <input type="text" id="whoAreYou">
@@ -31,8 +31,8 @@
             <option>Saturn</option>
         </select>
     </fieldset>
-    <fieldset>
-        <h2>Something to please Santa</h2>
+    <fieldset id="form2">
+        <h2 id="headerForm2">Something to please Santa</h2>
         <p>Which do you like better</p>
         <input type="radio" id="elves" name="whichBetter">
         <label for="elves">Elves</label>
@@ -56,17 +56,15 @@
         <label for="amountTrees">How many x-mas trees do you own?</label>
         <input type="number" id="amountTrees">
 
-
     </fieldset>
-    <fieldset>
+    <fieldset id="form3">
         <h2>At last... your request</h2>
         <p>So, what will it be?</p>
         <label for="request"></label>
         <textarea id="request"></textarea>
     </fieldset>
 
-    <input type="submit" value="send to santa!">
-
+    <input type="submit" value="send to santa!" id="submit">
 
 </form>
 </body>
