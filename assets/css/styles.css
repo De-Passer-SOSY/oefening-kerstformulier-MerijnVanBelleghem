@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Pacifico&display=swap');
 
-h1 {
+h1, h2 {
     font-family: Pacifico, "Palatino Linotype", Georgia, serif;
-}
-
-h2 {
-    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
-
 }
 
 body {
@@ -54,12 +49,7 @@ body {
     background-image: url("../img/bg-stars.gif");
 }
 
-p {
-    font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-}
-
-label {
+p, label {
     font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -87,7 +77,6 @@ label {
     border: 1px solid #F39708;
     border-radius: 3px;
 }
-
 
 #submit {
     font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
