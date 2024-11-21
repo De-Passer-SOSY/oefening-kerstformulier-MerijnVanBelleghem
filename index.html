@@ -23,7 +23,13 @@
         <input type="text" id="PhoneHome">
 
         <label for="whereFrom">Where are you from?</label>
-        <input type="text" id="whereFrom" placeholder="Earth">
+        <select id="whereFrom">
+            <option>Earth</option>
+            <option>Jupiter</option>
+            <option>Mars</option>
+            <option>Mercury</option>
+            <option>Saturn</option>
+        </select>
     </fieldset>
     <fieldset>
         <h2>Something to please Santa</h2>
@@ -45,12 +51,21 @@
         <input type="checkbox" id="fireworks" name="whichDecoration">
         <label for="fireworks">Fireworks!</label>
 
-
+        <label for="favMovie">What is your favourite x-mas movie?</label>
+        <input type="text" id="favMovie">
+        <label for="amountTrees">How many x-mas trees do you own?</label>
+        <input type="number" id="amountTrees">
 
 
     </fieldset>
+    <fieldset>
+        <h2>At last... your request</h2>
+        <p>So, what will it be?</p>
+        <label for="request"></label>
+        <textarea id="request"></textarea>
+    </fieldset>
 
-
+    <input type="submit" value="send to santa!">
 
 
 </form>
